@@ -19,7 +19,10 @@ requirements:
   host:
     - python
     - pip
+    - setuptools >=67.6
+    - wheel
   run:
+    - python >=3.10,<3.11
     - pysamstats 
     - pandas
     - matplotlib-base
